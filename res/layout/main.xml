@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="720px"
+    android:layout_height="1280px"
     android:orientation="vertical" 
-    android:background="@drawable/a1">
+    android:background="@drawable/aend">
 
-    <ImageButton
-        android:id="@+id/imageButton2"
+    <ImageView
+        android:id="@+id/imageButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/firstbtn2" 
-        android:layout_marginTop="300dp"/>
-
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/firstbtn" />
 
 </LinearLayout>

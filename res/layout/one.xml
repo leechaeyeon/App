@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="720px"
+    android:layout_height="1280px"
     android:orientation="vertical"
-    android:background="@drawable/a2" >
+    android:background="@drawable/a2_1" >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" 
-        android:layout_marginTop="350dp">
+        android:layout_marginTop="470dp">
 
-        <ImageButton
+        <ImageView
             android:id="@+id/imageButton1"
-            android:layout_width="149dp"
-            android:layout_height="61dp"
-            android:src="@drawable/two_2btn" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/choicebtn" 
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
 
-        <ImageButton
+        <ImageView
             android:id="@+id/imageButton2"
-            android:layout_width="116dp"
-            android:layout_height="match_parent"
-            android:layout_weight="0.53"
-            android:src="@drawable/twobtn" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/endbtn" />
+      
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
     </LinearLayout>
 
 </LinearLayout>
