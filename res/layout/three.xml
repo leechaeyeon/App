@@ -14,23 +14,23 @@
 
         <RadioButton
             android:id="@+id/left"
-            android:text="연예인" />
+            android:text="1시간" />
 
         <RadioButton
             android:id="@+id/center"
-            android:text="동물" />
+            android:text="1일" />
 
         <RadioButton
             android:id="@+id/right"
-            android:text="식물" />
+            android:text="3일" />
 
         <RadioButton
             android:id="@+id/right2"
-            android:text="음식" />
+            android:text="1주일" />
 
         <RadioButton
             android:id="@+id/right3"
-            android:text="랜덤" />
+            android:text="1달" />
 
         <ImageView
             android:id="@+id/imageButton1"
